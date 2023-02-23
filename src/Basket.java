@@ -1,9 +1,13 @@
+import fruits.Apple;
 import fruits.Fruit;
+import fruits.Grape;
+import fruits.Mango;
 
 import java.util.ArrayList;
 
 public class Basket {
     private ArrayList<Fruit> fruitArrayList = new ArrayList<>();
+
 
     //생성자
     public Basket(ArrayList<Fruit> fruitArrayList) {
@@ -14,6 +18,7 @@ public class Basket {
     public void printBasket() {
         for (int i = 0; i < fruitArrayList.size(); i++) {
             fruitArrayList.get(i).fruitName();
+
         }
     }
 
